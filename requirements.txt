@@ -1,0 +1,9 @@
+parameterized
+requests
+setuptools
+wheel
+pytest
+pytest-cov
+pytest-xdist
+coverage
+build

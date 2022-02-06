@@ -1,0 +1,7 @@
+.pytest_cache
+.coverage
+venv
+dist
+build
+*.egg-info
+test-reports
