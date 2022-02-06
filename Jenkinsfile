@@ -1,13 +1,9 @@
 pipeline {
     agent {label 'gce'}
     stages {
-        stage('Build') {
-            steps {
-                sh 'pip install -r requirements.txt'
-            }
-        }
         stage('Test') {
             steps {
+                sh 'pip install -r requirements.txt'
                 sh 'pytest --cov=src tests/'
             }
             post {
